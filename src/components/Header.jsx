@@ -22,7 +22,7 @@ export default function Header() {
                     <a href="/#leistungen">Leistungen</a>
                     <a href="/#prozess">Prozess</a>
                     <a href="/#faq">FAQ</a>
-                    <a href="/#kontakt" className="btn btn--primary header__cta">Beratung sichern</a>
+                    <a href="#" className="btn btn--primary header__cta" data-open-audit>Gratis Analyse</a>
                 </nav>
             </div>
         </header>

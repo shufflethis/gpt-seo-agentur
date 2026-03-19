@@ -1,6 +1,7 @@
 import { Routes, Route } from 'react-router-dom'
 import Header from './components/Header'
 import Footer from './components/Footer'
+import AuditCTA from './components/AuditCTA'
 import LandingPage from './pages/LandingPage'
 import Impressum from './pages/Impressum'
 import AGB from './pages/AGB'
@@ -21,6 +22,7 @@ export default function App() {
                 </Routes>
             </main>
             <Footer />
+            <AuditCTA />
         </>
     )
 }

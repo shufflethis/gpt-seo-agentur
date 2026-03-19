@@ -98,7 +98,7 @@ function ContactForm() {
             </button>
             {status === 'error' && (
                 <p style={{ color: 'var(--color-light-orange)', marginTop: '0.5rem', fontSize: '0.9rem' }}>
-                    Ein Fehler ist aufgetreten. Bitte senden Sie Ihre Anfrage an <a href="mailto:info@famefact.com">info@famefact.com</a>.
+                    Ein Fehler ist aufgetreten. Bitte senden Sie Ihre Anfrage an <a href="mailto:hi@gpt-seo-agentur.de">hi@gpt-seo-agentur.de</a>.
                 </p>
             )}
         </form>
@@ -110,8 +110,8 @@ export default function LandingPage() {
     return (
         <>
             <Helmet>
-                <title>GPT SEO Agentur Berlin | Generative Engine Optimization | famefact</title>
-                <meta name="description" content="GPT SEO Agentur Berlin – Ihre Experten für Generative Engine Optimization (GEO). Wir optimieren Ihre Sichtbarkeit in ChatGPT, Perplexity, Google AI Overviews & Co. ✓ Mehr AI-Zitierungen ✓ Höhere digitale Autorität ✓ Nachweisbare Ergebnisse" />
+                <title>ChatGPT SEO Agentur: KI, GPT & Geo Optimierung für Sichtbarkeit</title>
+                <meta name="description" content="ChatGPT SEO Agentur: KI & GPT Optimierung für mehr Sichtbarkeit. Wir optimieren Ihre Webseite für Chat GPT, Perplexity & Co. Steigern Sie Ihre Sichtbarkeit!" />
             </Helmet>
 
             {/* ═══════════════════════════════════════
@@ -121,18 +121,19 @@ export default function LandingPage() {
                 <div className="hero__bg" aria-hidden="true" />
                 <div className="container">
                     <div className="hero__content">
-                        <div className="hero__badge">🚀 Generative Engine Optimization für Deutschland</div>
+                        <div className="hero__badge">🚀 ChatGPT SEO & GEO Optimierung für Deutschland</div>
                         <h1>
-                            <span className="gradient-text">GPT SEO Agentur</span><br />
-                            Ihre Sichtbarkeit in der KI-Suche
+                            <span className="gradient-text">ChatGPT SEO Agentur</span><br />
+                            Mehr Sichtbarkeit in KI-Suchsystemen
                         </h1>
                         <p className="hero__subtitle">
-                            Wir sind Ihre spezialisierte Agentur für <strong>Generative Engine Optimization (GEO)</strong>.
-                            Wir sorgen dafür, dass Ihr Unternehmen in ChatGPT, Perplexity, Google AI Overviews und
-                            weiteren KI-Suchsystemen als vertrauenswürdige Quelle zitiert und empfohlen wird.
+                            Wir sind Ihre spezialisierte ChatGPT SEO Agentur für <strong>Generative Engine Optimization (GEO)</strong> und
+                            KI-Suchmaschinenoptimierung. Wir optimieren Ihre Webseite spezifisch für Chat GPT, Perplexity und
+                            weitere KI-Systemen – damit Ihr Unternehmen bei ChatGPT als vertrauenswürdige Quelle zitiert wird
+                            und Sie mehr Sichtbarkeit und Reichweite in den Antworten der KI erzielen.
                         </p>
                         <div className="hero__actions">
-                            <a href="#kontakt" className="btn btn--primary">Kostenlose Erstberatung sichern →</a>
+                            <a href="#" className="btn btn--primary" data-open-audit>Kostenlose Analyse per E-Mail →</a>
                             <a href="#was-ist-geo" className="btn btn--secondary">Was ist GPT SEO?</a>
                         </div>
                         <div className="hero__trust">
@@ -159,9 +160,11 @@ export default function LandingPage() {
                             <h2 className="headline-lg">KI verändert die Suche grundlegend – sind Sie vorbereitet?</h2>
                             <p className="body-lg" style={{ maxWidth: 700, margin: '0 auto' }}>
                                 Die Art, wie Menschen nach Informationen suchen, hat sich grundlegend verändert. Millionen von Nutzern
-                                stellen ihre Fragen nicht mehr in Google, sondern direkt an ChatGPT, Perplexity oder Google AI Overviews.
-                                Und selbst bei Google werden Antworten zunehmend von KI generiert – ohne dass Nutzer auf eine Website klicken müssen.
-                                Unternehmen, die jetzt nicht in GPT SEO investieren, werden unsichtbar.
+                                stellen ihre Suchanfragen nicht mehr bei klassischen Suchmaschinen, sondern direkt bei ChatGPT oder Perplexity.
+                                KI-Modelle generieren Antworten von ChatGPT und anderen Large Language Models – ohne dass Nutzer auf eine Website klicken müssen.
+                                Unternehmen, die jetzt nicht in ChatGPT SEO und SEO Optimierung für KI-Systemen investieren, werden unsichtbar.
+                                Traditionelle SEO allein reicht nicht mehr aus: Wer bei Chat GPT und anderen Suchsystemen sichtbar sein will,
+                                braucht eine spezifische Optimierung für ChatGPT und KI-gestützte Suchanfragen.
                             </p>
                         </div>
                     </FadeIn>
@@ -205,31 +208,39 @@ export default function LandingPage() {
                 <div className="container">
                     <FadeIn>
                         <span className="section-label">Grundlagen</span>
-                        <h2 className="headline-lg">Was ist GPT SEO und Generative Engine Optimization?</h2>
+                        <h2 className="headline-lg">Was ist ChatGPT SEO – Optimierung für KI-Suchmaschinen</h2>
                     </FadeIn>
 
                     <div className="geo-explain__grid">
                         <FadeIn className="geo-explain__content slide-in-left">
                             <p>
-                                <strong>GPT SEO</strong> – auch bekannt als <strong>Generative Engine Optimization (GEO)</strong> oder
-                                <strong> LLM Optimization (LLMO)</strong> – ist die nächste Evolution der Suchmaschinenoptimierung. Während
-                                klassisches SEO darauf abzielt, in den Google-Suchergebnissen möglichst weit oben zu erscheinen, geht
-                                GPT SEO einen entscheidenden Schritt weiter: Es optimiert Ihre digitale Präsenz so, dass KI-gestützte
-                                Suchsysteme Ihr Unternehmen als vertrauenswürdige, autoritative Quelle erkennen und aktiv in ihren
-                                Antworten zitieren.
+                                <strong>ChatGPT SEO</strong> – auch bekannt als <strong>GEO (Generative Engine Optimization)</strong> oder
+                                <strong> LLMO (Large Language Model Optimization)</strong> – ist die nächste Evolution der Suchmaschinenoptimierung.
+                                Während klassisches SEO darauf abzielt, in den Suchergebnissen der Suchmaschinen möglichst weit oben zu erscheinen,
+                                geht ChatGPT SEO einen entscheidenden Schritt weiter: Es optimiert Ihre digitale Präsenz so, dass
+                                KI-gestützte Suchsysteme Ihr Unternehmen als vertrauenswürdige Quelle erkennen und in ki-generierten Antworten zitieren.
                             </p>
                             <p>
-                                Das Prinzip ist einfach, aber die Umsetzung komplex: Generative AI-Modelle wie ChatGPT, Perplexity AI
+                                Das Prinzip ist einfach, aber die Umsetzung komplex: KI-Modelle wie Chat GPT, Perplexity
                                 oder Google Gemini generieren ihre Antworten auf Basis von Trainingsdaten und Echtzeitrecherchen.
-                                Sie bewerten dabei die Autorität, Konsistenz und semantische Eindeutigkeit von Quellen. Nur
-                                Inhalte, die diese strengen Kriterien erfüllen, werden als Quelle zitiert – und damit Ihren
-                                potenziellen Kunden als Empfehlung präsentiert.
+                                ChatGPT bevorzugt dabei Quellen mit hoher Autorität, Konsistenz und semantischer Eindeutigkeit. Nur
+                                hochwertiger Content, der diese strengen Kriterien erfüllt, wird als Quelle zitiert – und damit Ihren
+                                potenziellen Kunden als Empfehlung präsentiert. SEO-Strategien müssen daher gezielt auf die
+                                Anforderungen von KI-Systemen und Large Language Models ausgerichtet werden.
                             </p>
                             <p>
-                                Als <strong>GPT SEO Agentur</strong> aus Berlin kombinieren wir tiefes technisches Verständnis der
-                                LLM-Architektur mit bewährten Content-Strategien und strukturierter Datenoptimierung. Wir analysieren,
-                                wie AI-Modelle Ihre Branche, Ihre Marke und Ihre Wettbewerber sehen – und entwickeln eine maßgeschneiderte
-                                Strategie, die Ihre Sichtbarkeit in der KI-Suche systematisch aufbaut.
+                                Als <strong>ChatGPT SEO Agentur</strong> und <strong>GEO Agentur</strong> aus Berlin kombinieren wir
+                                tiefes technisches Verständnis der LLM-Architektur mit bewährten Content-Strategien und strukturierter
+                                Datenoptimierung. Wir analysieren, wie KI-Modelle Ihre Branche, Ihre Marke und Ihre Wettbewerber sehen –
+                                und entwickeln eine maßgeschneiderte SEO-Strategie, die die Sichtbarkeit Ihrer Inhalte in
+                                ChatGPT Search und anderen KI-Suchmaschinen systematisch aufbaut.
+                            </p>
+                            <p>
+                                Der Unterschied zu traditioneller SEO: Bei der Optimierung für ChatGPT und Perplexity geht es nicht nur
+                                um Keywords und Backlinks, sondern um technische Optimierung, Entity Authority und die spezifische
+                                Aufbereitung von Content für KI-Systemen. Unsere SEO Berater analysieren, wie ChatGPT oder Perplexity
+                                Ihr Unternehmen bei ChatGPT wahrnehmen, und entwickeln daraus konkrete Maßnahmen für mehr Reichweite
+                                und Sichtbarkeit in den Antworten von ChatGPT.
                             </p>
 
                             <table className="comparison-table">
@@ -340,10 +351,11 @@ export default function LandingPage() {
                     <FadeIn>
                         <div className="text-center">
                             <span className="section-label">Unsere Leistungen</span>
-                            <h2 className="headline-lg">Ganzheitliche GPT SEO Optimierung für Ihre Marke</h2>
+                            <h2 className="headline-lg">ChatGPT SEO: Ganzheitliche KI-Optimierung für Ihre Marke</h2>
                             <p className="body-lg" style={{ maxWidth: 700, margin: '0 auto' }}>
-                                Unsere GPT SEO Agentur bietet ein umfassendes Leistungsspektrum, das alle Aspekte der
-                                Generative Engine Optimization abdeckt – von der technischen Analyse bis zum kontinuierlichen Monitoring.
+                                Unsere ChatGPT SEO Agentur bietet ein umfassendes Leistungsspektrum –
+                                von der technischen Optimierung und SEO für ChatGPT bis zum kontinuierlichen Sichtbarkeits-Monitoring
+                                mit spezialisierten Tools. Wir optimieren Ihren Content gezielt für KI-Suchmaschinen.
                             </p>
                         </div>
                     </FadeIn>
@@ -353,12 +365,13 @@ export default function LandingPage() {
                             <article className="glass-card service-card">
                                 <span className="service-card__number">01</span>
                                 <div className="service-card__icon">🔬</div>
-                                <h3>GEO Audit & AI-Sichtbarkeitsanalyse</h3>
+                                <h3>ChatGPT SEO Audit & Sichtbarkeitsanalyse</h3>
                                 <p>
-                                    Wir analysieren systematisch, wie ChatGPT, Perplexity und Google AI Overviews Ihr Unternehmen,
-                                    Ihre Marke und Ihre Branche aktuell wahrnehmen. Dabei identifizieren wir Lücken in der AI-Sichtbarkeit,
-                                    falsche oder fehlende Informationen und ungenutzte Potenziale. Der Audit umfasst eine vollständige
-                                    Entity-Analyse, Wettbewerbsvergleich und Handlungsempfehlungen mit priorisierten Maßnahmen.
+                                    Wir analysieren systematisch, wie Chat GPT, Perplexity und weitere KI-Suchsysteme Ihr Unternehmen
+                                    bei ChatGPT und anderen Plattformen aktuell wahrnehmen. Dabei identifizieren wir Lücken in der
+                                    Sichtbarkeit Ihrer Inhalte, falsche oder fehlende Informationen und ungenutzte Potenziale.
+                                    Der Audit umfasst eine vollständige Entity-Analyse, Wettbewerbsvergleich und
+                                    Handlungsempfehlungen mit priorisierten Maßnahmen für SEO für Chat GPT.
                                 </p>
                             </article>
                         </FadeIn>
@@ -367,12 +380,13 @@ export default function LandingPage() {
                             <article className="glass-card service-card">
                                 <span className="service-card__number">02</span>
                                 <div className="service-card__icon">📝</div>
-                                <h3>Content-Optimierung für LLMs</h3>
+                                <h3>Content-Optimierung für ChatGPT & KI-Suchmaschinen</h3>
                                 <p>
-                                    Wir optimieren Ihre bestehenden Inhalte und erstellen neue Inhalte, die von Large Language Models
-                                    als hochwertige, zitierbare Quelle erkannt werden. Dazu gehören semantisch eindeutige
+                                    Wir optimieren Ihre bestehenden Inhalte und erstellen spezifisch neuen Content, der von Large Language Models
+                                    als hochwertige, zitierbare Quelle erkannt wird. Dazu gehören semantisch eindeutige
                                     Definitionen, faktenbasierte Aussagen mit Quellenangaben, strukturierte Informationsblöcke
                                     und die strategische Platzierung von E-E-A-T-Signalen (Experience, Expertise, Authoritativeness, Trustworthiness).
+                                    So wird Ihre Webseite zur bevorzugten Quelle für Suchanfragen in KI-gestützten Suchmaschinen.
                                 </p>
                             </article>
                         </FadeIn>
@@ -445,23 +459,25 @@ export default function LandingPage() {
                 <div className="container">
                     <FadeIn>
                         <span className="section-label">Ihre Vorteile</span>
-                        <h2 className="headline-lg">Warum famefact als GPT SEO Agentur?</h2>
+                        <h2 className="headline-lg">Warum famefact als ChatGPT SEO Agentur wählen?</h2>
                     </FadeIn>
 
                     <div className="why__grid">
                         <FadeIn className="why__content slide-in-left">
                             <p>
-                                Als eine der ersten spezialisierten GPT SEO Agenturen in Deutschland bringen wir eine einzigartige
-                                Kombination aus Social-Media-Expertise, technischem SEO-Know-how und tiefem Verständnis für
-                                KI-Systeme mit. Seit unserer Gründung 2010 in Berlin haben wir über 100 Unternehmen bei
-                                ihrer digitalen Transformation begleitet – und verstehen daher genau, wie digitale Autorität aufgebaut wird.
+                                Als eine der ersten spezialisierten ChatGPT SEO Agenturen in Deutschland bringen wir eine einzigartige
+                                Kombination aus Social-Media-Expertise, technischer SEO Optimierung und tiefem Verständnis für
+                                KI-Systemen mit. Seit unserer Gründung 2010 in Berlin haben wir über 100 Unternehmen bei
+                                ihrer digitalen Transformation begleitet – und verstehen daher genau, wie digitale Autorität
+                                und mehr Sichtbarkeit in KI-Suchmaschinen aufgebaut wird.
                             </p>
                             <p>
-                                Der entscheidende Unterschied zu anderen Agenturen: Wir kommen aus der Social-Media-Welt und wissen,
+                                Der entscheidende Unterschied zu anderen SEO Agenturen: Wir kommen aus der Social-Media-Welt und wissen,
                                 dass <strong>echte Community-Signale</strong> das stärkste Trust-Signal für KI-Systeme sind.
-                                Während andere Agenturen noch an veralteten Linkbuilding-Strategien festhalten, setzen wir auf
-                                den Aufbau authentischer digitaler Autorität – genau das, was ChatGPT, Perplexity und
-                                Co. bevorzugen.
+                                Während andere Agenturen noch an veralteten Linkbuilding-Strategien und klassischen SEO-Tools festhalten,
+                                setzen wir auf den Aufbau authentischer digitaler Autorität – genau das, was ChatGPT, Perplexity und
+                                Co. bevorzugen. Unsere Expertise in der Optimierung für ChatGPT sorgt dafür, dass Ihr
+                                Unternehmen bei ChatGPT und anderen KI-Modellen als vertrauenswürdige Quelle erkannt wird.
                             </p>
 
                             <div className="usp-list">
@@ -528,10 +544,11 @@ export default function LandingPage() {
                     <FadeIn>
                         <div className="text-center">
                             <span className="section-label">So arbeiten wir</span>
-                            <h2 className="headline-lg">Unser bewährter GPT SEO Prozess</h2>
+                            <h2 className="headline-lg">Unser ChatGPT SEO Prozess – SEO für ChatGPT & KI</h2>
                             <p className="body-lg" style={{ maxWidth: 700, margin: '0 auto' }}>
-                                In vier klar definierten Phasen bringen wir Ihr Unternehmen an die Spitze der KI-Suchergebnisse.
-                                Jede Phase baut auf der vorherigen auf und wird durch datengetriebene Entscheidungen gesteuert.
+                                In vier klar definierten Phasen bringen wir Ihr Unternehmen bei ChatGPT und anderen KI-Suchmaschinen
+                                an die Spitze der Suchergebnisse. Jede Phase baut auf der vorherigen auf und wird durch
+                                datengetriebene SEO-Strategien und spezialisierte Tools gesteuert.
                             </p>
                         </div>
                     </FadeIn>
@@ -563,10 +580,10 @@ export default function LandingPage() {
                     <FadeIn>
                         <div className="text-center">
                             <span className="section-label">Häufige Fragen</span>
-                            <h2 className="headline-lg">Alles über GPT SEO & Generative Engine Optimization</h2>
+                            <h2 className="headline-lg">ChatGPT SEO & Suchmaschinenoptimierung für KI – FAQ</h2>
                             <p className="body-lg" style={{ maxWidth: 700, margin: '0 auto' }}>
-                                Die wichtigsten Fragen und Antworten rund um GPT SEO, GEO und die Optimierung
-                                für KI-gestützte Suchsysteme – verständlich erklärt.
+                                Die wichtigsten Fragen und Antworten rund um ChatGPT SEO, GEO und die Optimierung
+                                für KI-gestützte Suchsysteme und Suchmaschinen – verständlich erklärt.
                             </p>
                         </div>
                     </FadeIn>
@@ -626,11 +643,11 @@ export default function LandingPage() {
                     <FadeIn>
                         <div className="text-center">
                             <span className="section-label">Jetzt starten</span>
-                            <h2 className="headline-lg">Bereit für die KI-Suche der Zukunft?</h2>
+                            <h2 className="headline-lg">Bereit für mehr Sichtbarkeit bei ChatGPT & KI-Suchmaschinen?</h2>
                             <p className="body-lg" style={{ maxWidth: 700, margin: '0 auto' }}>
                                 Lassen Sie uns in einem kostenlosen Erstgespräch analysieren, wie Ihr Unternehmen aktuell
-                                in ChatGPT, Perplexity und Google AI Overviews sichtbar ist – und welches Potenzial wir
-                                gemeinsam erschließen können.
+                                bei ChatGPT oder Perplexity sichtbar ist – und welches Potenzial wir
+                                durch gezielte SEO für ChatGPT gemeinsam erschließen können.
                             </p>
                         </div>
                     </FadeIn>
@@ -651,7 +668,7 @@ export default function LandingPage() {
                                 <div className="contact-detail">
                                     <div className="contact-detail__icon">📧</div>
                                     <div className="contact-detail__text">
-                                        <a href="mailto:info@famefact.com">info@famefact.com</a>
+                                        <a href="mailto:hi@gpt-seo-agentur.de">hi@gpt-seo-agentur.de</a>
                                     </div>
                                 </div>
 
@@ -665,7 +682,7 @@ export default function LandingPage() {
                                 <div className="contact-detail">
                                     <div className="contact-detail__icon">🌐</div>
                                     <div className="contact-detail__text">
-                                        <a href="https://famefact.com" target="_blank" rel="noopener noreferrer">famefact.com</a>
+                                        <a href="https://gpt-seo-agentur.de" target="_blank" rel="noopener noreferrer">gpt-seo-agentur.de</a>
                                     </div>
                                 </div>
 
