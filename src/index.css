@@ -1278,21 +1278,20 @@ button {
   100% { opacity: 1; transform: translateY(0) scale(1); }
 }
 
-/* Pulse ring animation */
-.audit-floating-btn::before {
+/* Pulse ring — subtle glow only */
+.audit-floating-btn::after {
   content: '';
   position: absolute;
-  inset: -4px;
+  inset: 0;
   border-radius: 60px;
-  background: linear-gradient(135deg, var(--color-positive-green), var(--color-iris));
+  box-shadow: 0 0 20px rgba(187, 216, 167, 0.3);
   opacity: 0;
-  z-index: -1;
   animation: auditRingPulse 3s ease-in-out infinite;
 }
 
 @keyframes auditRingPulse {
-  0%, 100% { opacity: 0; transform: scale(1); }
-  50% { opacity: 0.25; transform: scale(1.08); }
+  0%, 100% { opacity: 0; }
+  50% { opacity: 1; }
 }
 
 /* ────────────── Modal Overlay ────────────── */

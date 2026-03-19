@@ -34,11 +34,12 @@ export default function AuditCTA() {
             const trigger = e.target.closest('[data-open-audit]')
             if (trigger) {
                 e.preventDefault()
+                e.stopImmediatePropagation()
                 openModal()
             }
         }
-        document.addEventListener('click', handler)
-        return () => document.removeEventListener('click', handler)
+        document.addEventListener('click', handler, { capture: true })
+        return () => document.removeEventListener('click', handler, { capture: true })
     }, [openModal])
 
     // ESC to close
